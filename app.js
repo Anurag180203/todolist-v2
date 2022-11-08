@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/todolistDB", {
+mongoose.connect("mongodb+srv://anurag1802:An%4018022003@cluster0.sbrw45u.mongodb.net/todolistDB", {
     useNewUrlParser: true
 });
 
